@@ -223,7 +223,7 @@ function App() {
           ))}
         </ul>
       )}
-      <dt>gaming - most played champions via riot api</dt>
+      <dt>gaming - most played league champions via riot api</dt>
       {loadingRiot ? (
         <p>Loading my Riot data...</p>
       ) : errorRiot ? (
