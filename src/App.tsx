@@ -90,6 +90,25 @@ function App() {
         </li>
       </ul>
       {/* */}
+      <dt>dining</dt>
+      <ul>
+        <li>
+          <a href="https://beliapp.co/app/eatpoop" target="_blank">
+            my beli
+          </a>
+        </li>
+        <li>
+          <a href="https://mahaniyomboston.com" target="_blank">
+            mahaniyom - favorite thai food in boston
+          </a>
+        </li>
+        <li>
+          <a href="https://www.rodthaifenway.com" target="_blank">
+            rod thai - close runner up in boston
+          </a>
+        </li>
+      </ul>
+      {/* */}
       <dt>cooking</dt>
       <ul>
         <li>
