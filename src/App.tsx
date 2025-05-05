@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { fetchChampionMastery, fetchRecentlyPlayedGames } from "./apiService";
 import {
   CHAMPION_MAP,
@@ -52,6 +53,7 @@ function App() {
 
   return (
     <div className="App">
+      <Analytics />
       <p>a minimal depiction of who i am and what i like</p>
       {/* */}
       <dt>music</dt>
@@ -105,6 +107,13 @@ function App() {
         <li>
           <a href="https://www.rodthaifenway.com" target="_blank">
             rod thai - close runner up in boston
+          </a>
+        </li>
+        <li>
+          <a href="https://maps.app.goo.gl/bWW9u5bmHVexzdU79" target="_blank">
+            hartland diner - the best breakfast i've ever had in the united
+            states. was a desperate stop for food during a road trip, turned out
+            to be the best decision ever
           </a>
         </li>
       </ul>
