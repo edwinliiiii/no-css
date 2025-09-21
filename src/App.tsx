@@ -81,7 +81,7 @@ function App() {
           </a>
         </li>
         <li>
-          <a href="https://linkedin.com/in/edwinliiiii/" target="_blank">
+          <a href="https://linkedin.com/in/edweenli/" target="_blank">
             linkedin
           </a>
         </li>
