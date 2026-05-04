@@ -65,7 +65,11 @@ function App() {
           </a>
         </li>
         <li>
-          <a href="https://on.soundcloud.com/RbqppwcGJpxjnZcf8" target="_blank">
+          <a
+            href="https://on.soundcloud.com/RbqppwcGJpxjnZcf8"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             soundcloud (mainly edm, remixes, hardstyle)
           </a>
         </li>
@@ -77,17 +81,26 @@ function App() {
           <a
             href="https://drive.google.com/file/d/1GW2BV4fjsQt73fEvsutyc8cbxcmGEz3G/view?usp=sharing"
             target="_blank"
+            rel="noopener noreferrer"
           >
             resume
           </a>
         </li>
         <li>
-          <a href="https://linkedin.com/in/edweenli/" target="_blank">
+          <a
+            href="https://linkedin.com/in/edweenli/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             linkedin
           </a>
         </li>
         <li>
-          <a href="https://github.com/edwinliiiii" target="_blank">
+          <a
+            href="https://github.com/edwinliiiii"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             github
           </a>
         </li>
@@ -96,22 +109,38 @@ function App() {
       <dt>dining</dt>
       <ul>
         <li>
-          <a href="https://beliapp.co/app/eatpoop" target="_blank">
+          <a
+            href="https://beliapp.co/app/eatpoop"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             my beli
           </a>
         </li>
         <li>
-          <a href="https://mahaniyomboston.com" target="_blank">
+          <a
+            href="https://mahaniyomboston.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             mahaniyom - favorite thai food in boston
           </a>
         </li>
         <li>
-          <a href="https://www.rodthaifenway.com" target="_blank">
+          <a
+            href="https://www.rodthaifenway.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             rod thai - close runner up in boston
           </a>
         </li>
         <li>
-          <a href="https://maps.app.goo.gl/bWW9u5bmHVexzdU79" target="_blank">
+          <a
+            href="https://maps.app.goo.gl/bWW9u5bmHVexzdU79"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             hartland diner - the best breakfast i've ever had in the united
             states. was a desperate stop for food during a road trip, turned out
             to be the best decision ever
@@ -125,6 +154,7 @@ function App() {
           <a
             href="https://tastecooking.com/recipes/moms-shanghai-red-braised-pork-belly/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             my motha's red-braised pork belly
           </a>
@@ -133,17 +163,26 @@ function App() {
           <a
             href="https://www.justataste.com/greek-yogurt-banana-bread-recipe/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             moist greek yogurt banana bread
           </a>
         </li>
         <li>
-          <a href="https://thewoksoflife.com/katsudon/" target="_blank">
+          <a
+            href="https://thewoksoflife.com/katsudon/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             egg onion and rice katsudon
           </a>
         </li>
         <li>
-          <a href="https://thewoksoflife.com/pad-kra-pao/" target="_blank">
+          <a
+            href="https://thewoksoflife.com/pad-kra-pao/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             pad kra pao
           </a>
         </li>
@@ -156,6 +195,7 @@ function App() {
           <a
             href="https://retrospec.com/collections/longboards/products/zed-44-inch-longboard"
             target="_blank"
+            rel="noopener noreferrer"
           >
             retrospec zed 44 - my first ever board, sits a bit high and heavy,
             but all-around solid for cruising, 7/10
@@ -165,6 +205,7 @@ function App() {
           <a
             href="https://www.exwayboard.com/products/exway-flex"
             target="_blank"
+            rel="noopener noreferrer"
           >
             exway flex 38 - electric skateboard i rode in high school, managing
             truck tightness for carving vs. speed was tough, but great for human
@@ -175,6 +216,7 @@ function App() {
           <a
             href="https://www.pennyskateboards.com/collections/22-skateboards/products/blackout-22"
             target="_blank"
+            rel="noopener noreferrer"
           >
             pennyboard 22 - small, responsive, zippy board lent to me in
             college, great for carves and turns, not so much speed 7.5/10
@@ -184,6 +226,7 @@ function App() {
           <a
             href="https://landyachtz.com/shop/all/skate/boards/longboards/dipper-watercolor/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             landyachtz dipper 36 - my main board summer 2023, carvy and easy
             ride, 8/10
@@ -193,6 +236,7 @@ function App() {
           <a
             href="https://landyachtz.com/shop/discontinued/drop-cat-38-dune-2/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             landyachtz drop cat 38 - my current board of choice, great control
             for carving around the city, my first hammer shape though, 9.5/10
@@ -203,7 +247,11 @@ function App() {
       <dt>gaming - achievements</dt>
       <ul>
         <li>
-          <a href="https://hearthstone.blizzard.com/en-us" target="_blank">
+          <a
+            href="https://hearthstone.blizzard.com/en-us"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             hearthstone - peaked rank 1
           </a>
         </li>
@@ -211,12 +259,17 @@ function App() {
           <a
             href="https://store.steampowered.com/app/553310/Lethal_League_Blaze/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             lethal league blaze - peaked top 100
           </a>
         </li>
         <li>
-          <a href="https://www.leagueoflegends.com/en-us/" target="_blank">
+          <a
+            href="https://www.leagueoflegends.com/en-us/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             league - plat
           </a>
         </li>
@@ -224,12 +277,17 @@ function App() {
           <a
             href="https://teamfighttactics.leagueoflegends.com/en-us/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             tft - emerald
           </a>
         </li>
         <li>
-          <a href="https://playvalorant.com/en-us/" target="_blank">
+          <a
+            href="https://playvalorant.com/en-us/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             valorant - plat
           </a>
         </li>
