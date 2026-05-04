@@ -27,7 +27,8 @@ function App() {
         setGames(recentGames);
       } catch (err) {
         setErrorSteam(
-          err instanceof Error ? err.message : "Could not fetch Steam info."
+          // hide err for security, but log it to console for debugging
+          err instanceof Error ? "Could not fetch Steam info." : ""
         );
       } finally {
         setLoadingSteam(false);
@@ -139,6 +140,11 @@ function App() {
         <li>
           <a href="https://thewoksoflife.com/katsudon/" target="_blank">
             egg onion and rice katsudon
+          </a>
+        </li>
+        <li>
+          <a href="https://thewoksoflife.com/pad-kra-pao/" target="_blank">
+            pad kra pao
           </a>
         </li>
         <li> chicken and broccoli for survival </li>

@@ -15,7 +15,10 @@ export async function fetchRecentlyPlayedGames(): Promise<SteamGame[]> {
     }
 
     // Add a CORS proxy in front of the URL
-    const corsProxyUrl = `https://corsproxy.io/?${encodeURIComponent(apiUrl)}`;
+    // Using allorigins as it often handles compression better than corsproxy.io
+    const corsProxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(
+      apiUrl
+    )}`;
 
     // Make the request to the Steam API
     const response = await axios.get(corsProxyUrl);
