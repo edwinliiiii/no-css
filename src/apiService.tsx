@@ -7,23 +7,10 @@ import { ChampionMastery, SteamGame } from "./utils";
  */
 export async function fetchRecentlyPlayedGames(): Promise<SteamGame[]> {
   try {
-    // Get the API URL from environment variables
-    const apiUrl = process.env.REACT_APP_STEAMURL;
+    // Call our internal API route instead of the external Steam API directly
+    // This solves CORS and hides the API key from the browser
+    const response = await axios.get("/api/steam");
 
-    if (!apiUrl) {
-      throw new Error("Steam API URL not found in environment variables");
-    }
-
-    // Add a CORS proxy in front of the URL
-    // Using allorigins as it often handles compression better than corsproxy.io
-    const corsProxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(
-      apiUrl
-    )}`;
-
-    // Make the request to the Steam API
-    const response = await axios.get(corsProxyUrl);
-
-    // Check if the response contains the expected data
     if (
       response.data &&
       response.data.response &&
@@ -41,15 +28,8 @@ export async function fetchRecentlyPlayedGames(): Promise<SteamGame[]> {
 
 export async function fetchChampionMastery(): Promise<ChampionMastery[]> {
   try {
-    // Construct the API URL
-    const apiUrl = process.env.REACT_APP_RIOTURL;
-
-    if (!apiUrl) {
-      throw new Error("Riot API URL not found in environment variables");
-    }
-
-    // Make the request to the Riot API
-    const response = await axios.get(apiUrl);
+    // Call our internal API route
+    const response = await axios.get("/api/riot");
 
     // Return the champion mastery data
     return response.data;
