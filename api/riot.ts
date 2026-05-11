@@ -9,22 +9,27 @@ export default async function handler(
     const riotUrl = process.env.REACT_APP_RIOTURL;
 
     if (!riotUrl) {
-      return response
-        .status(500)
-        .json({ error: "Riot API URL not configured" });
+      console.error("Environment variable REACT_APP_RIOTURL is missing");
+      return response.status(500).json({
+        error: "Riot API URL not configured",
+        details: "Check Vercel environment variables for REACT_APP_RIOTURL",
+      });
     }
 
     const riotResponse = await axios.get(riotUrl);
 
-    // Add cache headers
     response.setHeader(
       "Cache-Control",
       "s-maxage=60, stale-while-revalidate=30"
     );
 
     return response.status(200).json(riotResponse.data);
-  } catch (error) {
-    console.error("Riot API Error:", error);
-    return response.status(500).json({ error: "Failed to fetch Riot data" });
+  } catch (error: any) {
+    console.error("Riot API Error:", error.message || error);
+    return response.status(500).json({
+      error: "Failed to fetch Riot data",
+      message: error.message,
+      code: error.code,
+    });
   }
 }
